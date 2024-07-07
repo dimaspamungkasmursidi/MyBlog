@@ -21,7 +21,7 @@ const postDate = post.data.updatedDate ?? post.data.publishDate
 		<a
 			data-astro-prefetch
 			href={`/blog/${post.slug}/`}
-			class='transition-all hover:text-muted-foreground'
+			class='unset gradient-link tracking-wider font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#f57111] to-[#f79605] hover:after:bg-gradient-to-r hover:after:from-[#f57111] hover:after:to-[#f79605]'
 		>
 			{post.data.title}
 		</a>
