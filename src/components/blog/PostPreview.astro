@@ -13,7 +13,7 @@ const { as: Tag = 'div', post, withDesc = false } = Astro.props
 const postDate = post.data.updatedDate ?? post.data.publishDate
 ---
 
-<li class='flex flex-col border-b pb-1 sm:flex-row sm:gap-x-4 [&_q]:basis-full hover:after:bg-gradient-to-r hover:after:from-[#f57111] hover:after:to-[#f79605]'>
+<li class='flex flex-col border-b border-white pb-1 sm:flex-row sm:gap-x-4 [&_q]:basis-full'>
 	<FormattedDate class='min-w-[120px]' date={postDate} />
 
 	<Tag>
