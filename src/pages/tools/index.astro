@@ -27,9 +27,20 @@ import Button from '@/components/Button.astro'
           If you find my content helpful and would like to support my work, you can make a donation through Trakteer. Your support is greatly appreciated and helps me to keep creating valuable content.
         </p>
       </div>
-      <div class="mt-2">
-        <a href="https://trakteer.id/dimaspamungkas" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-1.png?date=18-11-2023" height="40" style="border:0px;height:40px;" alt="Support me on Trakteer"></a>
-      </div>
+      <div id="trakteer-button-container" class="mt-2"></div>
     </section>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://cdn.trakteer.id/js/embed/trbtn.min.js?date=18-11-2023';
+        script.onload = () => {
+          const trbtnId = trbtn.init('Support me on Trakteer', '#be1e2d', 'https://trakteer.id/dimaspamungkas', 'https://cdn.trakteer.id/images/embed/trbtn-icon.png?date=18-11-2023', '40');
+          trbtn.draw(trbtnId);
+        };
+        document.getElementById('trakteer-button-container').appendChild(script);
+      });
+    </script>
   </div>
 </PageLayout>
