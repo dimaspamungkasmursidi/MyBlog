@@ -6,17 +6,19 @@ tags: ["example", "blog", "image"]
 ogImage: "/social-card.png"
 ---
 
-## Adding your own social image to a post
 
-This post is an example of how to add a custom [open graph](https://ogp.me/) social image, also known as an OG image, to a blog post.
-By adding the optional ogImage property to the frontmatter of a post, you opt out of [satori](https://github.com/vercel/satori) automatically generating an image for this page.
+## Introduction
 
-If you open this markdown file `src/content/post/social-image.md` you'll see the ogImage property set to an image which lives in the public folder[^1].
+Hello, I'm Dimas Pamungkas Mursidi👋, a Web Developer from Bekasi, Indonesia. I enjoy building websites using React JS, Tailwind CSS, and Framer Motion for animations. Currently, I work at FYP Media as an Intern in the Frontend Web division, where our team is developing a news portal website using Laravel 10.
 
-```yaml
-ogImage: "/social-card.png"
-```
+## A journey into the world of IT
 
-You can view the one set for this template page [here](https://astro-cactus.chriswilliams.dev/social-card.png).
+I didn't have any prior IT background. I graduated from High School with a focus on Light Vehicle Engineering, where I learned about car mechanics and electrical systems. My journey into IT began when I was deciding on further education. Uncertain about where to study and what program to choose, I researched career paths on Google. I came across articles highlighting the popularity and high salaries in IT jobs at the time. This led me to enroll in the Computer Science Faculty, majoring in Informatics at a university in Bekasi.
 
-[^1]: The image itself can be located anywhere you like.
+During the first four semesters, I struggled without a clear focus until I joined the Internship and Certified Independent Study Program MSIB in Web Development during the fifth and sixth semesters. Initially, coding was challenging, but over time, I became proficient. I believe MSIB is a beneficial government program for students, as it provided me with the opportunity to code and discover my identity as a web developer.
+
+## Message I Want to Convey
+
+For those starting out in IT, I encourage diligent learning without excessive pressure, as it can lead to burnout and loss of interest.
+
+Thank you for reading my journey. I hope it's informative and inspiring!
