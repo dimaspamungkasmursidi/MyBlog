@@ -68,9 +68,9 @@ const paginationProps = {
 
 		{
 			page.data.length > 0 && (
-				<div class='grid gap-y-10 sm:grid-cols-[3fr_1fr] sm:gap-x-8'>
+				<div class='grid gap-y-16 sm:grid-cols-[3fr_1fr] sm:gap-x-8'>
 					<section aria-label='Blog posts list'>
-						<ul class='flex flex-col  gap-y-4 text-start'>
+						<ul class='flex flex-col border-b gap-y-4 text-start'>
 							{page.data.map((p) => (
 								<PostPreview post={p} withDesc />
 							))}
