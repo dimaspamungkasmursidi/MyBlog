@@ -23,5 +23,5 @@ tags: ["blog", "blog", "Blog", "test", "bloG", "Test", "BLOG"]
 
 ---
 
-[Collaboration](mailto:dimaspamungkas.m19@gmail.com){: .mt-16 .inline-flex .flex-row .items-center .gap-x-3 .rounded-3xl .border .border-input .px-4 .py-2 .text-sm .shadow-sm .transition-all .hover:shadow-md}
+[Click here for Collaboration](mailto:dimaspamungkas.m19@gmail.com)
 
