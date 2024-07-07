@@ -19,3 +19,8 @@ tags: ["blog", "blog", "Blog", "test", "bloG", "Test", "BLOG"]
 <p>For those starting out in IT, I encourage diligent learning without excessive pressure, as it can lead to burnout and loss of interest.</p>
 
 #### Thank you for reading my journey. I hope it's informative and inspiring!
+
+
+---
+
+[Collaboration](mailto:dimaspamungkas.m19@gmail.com){: .mt-16 .inline-flex .flex-row .items-center .gap-x-3 .rounded-3xl .border .border-input .px-4 .py-2 .text-sm .shadow-sm .transition-all .hover\:shadow-md}
